@@ -1,2 +1,1 @@
-module.exports =
-  'Impacto ambiental'
+module.exports = 'Impacto ambiental'

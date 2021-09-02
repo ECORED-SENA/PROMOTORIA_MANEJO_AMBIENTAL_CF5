@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Impacto ambiental',
+    componenteFormativo: 'Impacto ambiental',
     descripcionCurso:
       'En el presente componente se abordarán temas que ayuden a la identificación y valoración de los aspectos e impactos ambientales que se generen en la organización, según la normativa.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -64,8 +63,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Tipos de aspectos ambientales',
+            titulo: 'Tipos de aspectos ambientales',
             hash: 't_3_1',
           },
           {
@@ -92,8 +90,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo:
-              'Clasificación de los impactos ambientales',
+            titulo: 'Clasificación de los impactos ambientales',
             hash: 't_4_1',
           },
           {
@@ -165,7 +162,7 @@ export default {
         'Mijangos-Ricardez, O.F, López Luna, J. (2013) Metodologías para la identificación y valoración de impactos ambientales. Temas de Ciencia y Tecnología. Mayo – agosto.',
       link:
         'https://www.utm.mx/edi_anteriores/temas50/T50_2Notas1-MetodologiasparalaIdentificacion.pdf ',
-    },  
+    },
     {
       referencia:
         'Ihobe. Sociedad Pública de Gestión Ambiental (2009). Identificación y evaluación de aspectos e impactos ambientales.',
@@ -177,7 +174,7 @@ export default {
         'Instituto Colombiano de normas técnicas y certificación (ICONTEC). (2007).  Norma técnica colombiana ISO 1040. Gestión ambiental. Análisis del ciclo de vida. Principios y marcos de referencia.',
       link:
         'http://files.control-ambiental5.webnode.com.co/200000127-a0991a28c5/NTC-ISO14040-2007%20Analisis_CicloVida.pdf',
-    },        
+    },
   ],
   glosario: [
     {
@@ -212,34 +209,44 @@ export default {
       texto:
         'Contaminación por plástico: ECODES. (s.f) <i>Contaminación por plásticos. Uno de los mayores desafíos ambientales del siglo XXI.</i>',
       tipo: 'Página web',
-      link: 'https://ecodes.org/hacemos/cultura-para-la-sostenibilidad/salud-y-medioambiente/observatorio-de-salud-y-medio-ambiente/contaminacion-por-plasticos-uno-de-los-mayores-desafios-ambientales-del-siglo-xxi',
+      link:
+        'https://ecodes.org/hacemos/cultura-para-la-sostenibilidad/salud-y-medioambiente/observatorio-de-salud-y-medio-ambiente/contaminacion-por-plasticos-uno-de-los-mayores-desafios-ambientales-del-siglo-xxi',
     },
     {
       texto:
         'Contaminación ambiental: Olivares, M. (2020). <i>Cuáles son los tipos de contaminación ambiental, Acciona con ayuda.</i> Fundación Ayuda en Acción.',
       tipo: 'Página web',
-      link: 'https://ayudaenaccion.org/ong/blog/sostenibilidad/tipos-contaminacion-ambiental/',
+      link:
+        'https://ayudaenaccion.org/ong/blog/sostenibilidad/tipos-contaminacion-ambiental/',
     },
     {
-      texto: 'Análisis del ciclo de vida: Instituto Colombiano de normas técnicas y certificación (ICONTEC). (2007).  <i>Norma técnica colombiana ISO 1040. Gestión ambiental. Análisis del ciclo de vida. Principios y marcos de referencia.</i>',
+      texto:
+        'Análisis del ciclo de vida: Instituto Colombiano de normas técnicas y certificación (ICONTEC). (2007).  <i>Norma técnica colombiana ISO 1040. Gestión ambiental. Análisis del ciclo de vida. Principios y marcos de referencia.</i>',
       tipo: 'Normatividad',
-      link: 'http://files.control-ambiental5.webnode.com.co/200000127-a0991a28c5/NTC-ISO14040-2007%20Analisis_CicloVida.pdf  ',
+      link:
+        'http://files.control-ambiental5.webnode.com.co/200000127-a0991a28c5/NTC-ISO14040-2007%20Analisis_CicloVida.pdf  ',
     },
     {
-      texto: 'Aspectos e impactos ambientales: Ihobe. Sociedad Pública de Gestión Ambiental (2009). <i>Identificación y evaluación de aspectos e impactos ambientales.</i>',
+      texto:
+        'Aspectos e impactos ambientales: Ihobe. Sociedad Pública de Gestión Ambiental (2009). <i>Identificación y evaluación de aspectos e impactos ambientales.</i>',
       tipo: 'Página web',
-      link: 'http://consultaema.mx:75/pqtinformativo/GENERAL/UV/Documentos_por_area/Auditoria_Ambiental-AA/Identificaci%C3%B3n%20%20y%20Evaluaci%C3%B3n%20de%20Aspectos%20Ambientales.pdf',
+      link:
+        'http://consultaema.mx:75/pqtinformativo/GENERAL/UV/Documentos_por_area/Auditoria_Ambiental-AA/Identificaci%C3%B3n%20%20y%20Evaluaci%C3%B3n%20de%20Aspectos%20Ambientales.pdf',
     },
     {
-      texto: 'Cartografía: Fallas, J. (2003). <i>Sistemas integrados de información geográfica. Conceptos básicos de cartografía.</i>',
+      texto:
+        'Cartografía: Fallas, J. (2003). <i>Sistemas integrados de información geográfica. Conceptos básicos de cartografía.</i>',
       tipo: 'Artículo',
-      link: 'https://pim.udelar.edu.uy/wp-content/uploads/sites/14/2019/07/CONCEPTOS-B%C3%81SICOS-DE-CARTOGRAF%C3%8DA.pdf ',
+      link:
+        'https://pim.udelar.edu.uy/wp-content/uploads/sites/14/2019/07/CONCEPTOS-B%C3%81SICOS-DE-CARTOGRAF%C3%8DA.pdf ',
     },
     {
-      texto: 'Sistemas de Información Geográfica: CEUPE (s.f.). <i>Los sistemas de información geográfica.</i>',
+      texto:
+        'Sistemas de Información Geográfica: CEUPE (s.f.). <i>Los sistemas de información geográfica.</i>',
       tipo: 'Página web',
-      link: 'https://www.ceupe.com/blog/los-sistemas-de-informacion-geografica.html',
-    },    
+      link:
+        'https://www.ceupe.com/blog/los-sistemas-de-informacion-geografica.html',
+    },
   ],
   creditos: {
     liderEquipo: [
