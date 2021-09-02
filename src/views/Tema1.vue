@@ -3,6 +3,44 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
     //- se encuentra en src/components/Muestras.vue
     //- Una vez el componente "Muestras" no se necesite 
