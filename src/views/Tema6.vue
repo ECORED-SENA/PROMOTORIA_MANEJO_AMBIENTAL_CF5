@@ -55,18 +55,74 @@
 
     p.mb-5(data-aos="slide-left")  Adicional para abordar la documentación de los impactos ambientales se debe considerar el uso de diferentes tipos de formatos que posibiliten la recopilación de información acorde a las necesidades de los proyectos, como lo son:
 
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        figure
+          img.nW(src='@/assets/curso/t6-i1.jpg', alt='icono decorativo')
+      .col-lg-6
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="TXT")
+            .col-md-2
+              figure
+                img.nW(src='@/assets/curso/t6-ic5.svg', alt='icono decorativo')
+            .col-md-8.mb-4.mb-md-0
+              p Formato abierto de texto plano. Carecen de información destinada a generar formatos y tipos de letra. 
+          
+          .row(titulo="PDF")
+            .col-md-2
+              figure
+                img.nW(src='@/assets/curso/t6-ic6.svg', alt='icono decorativo')
+            .col-md-8.mb-4.mb-md-0
+              p Formato abierto de documentos portátiles. Estos documentos al momento de adjuntarse no deben estar ni bloqueados ni protegidos. 
+
+          .row(titulo="ZIP")
+            .col-md-2
+              figure
+                img.nW(src='@/assets/curso/t6-ic7.svg', alt='icono decorativo')
+            .col-md-8.mb-4.mb-md-0
+              p Son utilizados para la compresión de datos como imágenes, programas o documentos. La mayoría de programas tanto comerciales como libres, lo utilizan y está permitido su uso habitual.
+
+          .row(titulo="BMP")
+            .col-md-2
+              figure
+                img.nW(src='@/assets/curso/t6-ic8.svg', alt='icono decorativo')
+            .col-md-8.mb-4.mb-md-0
+              p Son imágenes de mapa de bits, este es el formato propio que viene en el sistema operativo Windows en el programa Microsoft Paint.
+
+          .row(titulo="JPG")
+            .col-md-2
+              figure
+                img.nW(src='@/assets/curso/t6-ic9.svg', alt='icono decorativo')
+            .col-md-8.mb-4.mb-md-0
+              p Es el formato abierto para imágenes estáticas. Este es utilizado ampliamente para fotografías e imágenes de gran tamaño y también por cámaras digitales.
+
+          .row(titulo="PNG")
+            .col-md-2
+              figure
+                img.nW(src='@/assets/curso/t6-ic10.svg', alt='icono decorativo')
+            .col-md-8.mb-4.mb-md-0
+              p Es un formato gráfico que no está sujeto a patentes.
+
+          .row(titulo="MP3")
+            .col-md-2
+              figure
+                img.nW(src='@/assets/curso/t6-ic11.svg', alt='icono decorativo')
+            .col-md-8.mb-4.mb-md-0
+              p Este formato es de audio digital desarrollado por el grupo Moving Picture Experts.
 
 
+    .row.mb-5
+      .col-lg-7(data-aos="flip-down")
+        p.mb-3.text-bold  Para complementar la documentación de los impactos ambientales, se debe utilizar de manera articulada las normas APA.
+        p.mb-4  Las cuales se constituyen en estándares definidos por la American Psychological Association que ayudan a codificar los componentes de la escritura científica con el fin de facilitar la comprensión de la lectura. Estas normas son un conjunto de elementos las cuales tienen unas indicaciones precisas de cómo desarrollarse. Estas normas fueron desarrolladas con el fin de poder identificar la fuente de la cual se está tomando la información y poder así dar créditos a la persona que originalmente plasmó esa idea en un texto, artículo, revista, imagen o en otro lugar.
+      .col-lg-5
+        figure(data-aos="flip-up")
+          img.nW(src='@/assets/curso/t6-i2.jpg', alt='icono decorativo')
 
-
-
-
-
-
-
-
-
-
+    .row.justify-content-center
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4
+          p.mb-0  De acuerdo con lo anterior, es de vital importancia poder recalcar la veracidad de la información recolectada, el tipo de formato en el que debe estar y la manera de citar, de esta forma se le da un sustento a la información utilizada y se asegura que sea tratada de igual manera en futuros proyectos.
 
 
 
