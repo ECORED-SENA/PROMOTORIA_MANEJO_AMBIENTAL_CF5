@@ -3,23 +3,27 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    #t_3_1.pb-5.h2 tema 3.1
-    .pb-5(v-for="item of 15")
+    .titulo-principal(data-aos="flip-up")
+      .titulo-principal__numero
+        span 3
+      h1 Aspectos ambientales
 
-    #t_3_2.pb-5.h2 tema 3.2
-    .pb-5(v-for="item of 15")
 
-    #t_3_3.pb-5.h2 tema 3.3
-    .pb-5(v-for="item of 15")
+    #t_3_1.titulo-segundo
+      h2 3.1. Tipos de aspectos ambientales
 
-    #t_3_4.pb-5.h2 tema 3.4
-    .pb-5(v-for="item of 15")
+    Separador
+    br
+    br
+    #t_3_2.titulo-segundo
+      h2 3.2. Clasificación de los ambientes    
 
-    #t_3_5.pb-5.h2 tema 3.5
-    .pb-5(v-for="item of 15")
-
-    #t_3_6.pb-5.h2 tema 3.6
-    .pb-5(v-for="item of 15")
+      
+    Separador
+    br
+    br
+    #t_3_3.titulo-segundo
+      h2 3.3.  Identificación de los aspectos ambientales 
 
 </template>
 
