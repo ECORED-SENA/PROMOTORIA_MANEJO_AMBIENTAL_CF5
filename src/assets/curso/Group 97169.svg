@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="324" viewBox="0 0 274 324">
+  <g id="Group_97169" data-name="Group 97169" transform="translate(-663.5 -4338)">
+    <text id="Vegetación" transform="translate(663.5 4338)" fill="#0f2771" font-size="20" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-50.972" y="19">Vegetación</tspan></text>
+    <text id="_Fuego_Contaminación_de_aguas_suelos_Destrucción_de_cubierta_vegetal" data-name="• Fuego
+• Contaminación de aguas / suelos
+• Destrucción de cubierta vegetal" transform="translate(674.5 4444)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-26.711" y="15">• Fuego</tspan><tspan x="-123.746" y="39">• Contaminación de aguas / suelos</tspan><tspan x="-116.828" y="63">• Destrucción de cubierta vegetal</tspan></text>
+    <text id="FACTOR_CONTAMINANTE" data-name="FACTOR CONTAMINANTE" transform="translate(663.5 4412)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-84.933" y="17">Factor Contaminante</tspan></text>
+    <text id="_Diversidad_de_especies_Presencia_de_autóctonas_Endemismos" data-name="• Diversidad de especies
+• Presencia de autóctonas
+• Endemismos" transform="translate(674.5 4595)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-86.367" y="15">• Diversidad de especies</tspan><tspan x="-92.598" y="39">• Presencia de autóctonas</tspan><tspan x="-51.164" y="63">• Endemismos</tspan></text>
+    <text id="IDENTIFICACIÓN" transform="translate(663.5 4563)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-55.771" y="17">Identificación</tspan></text>
+    <path id="arrow-down-solid" d="M23.838,40.5l.991.991a1.067,1.067,0,0,1,0,1.513l-8.673,8.678a1.067,1.067,0,0,1-1.513,0L5.965,43.008a1.067,1.067,0,0,1,0-1.513l.991-.991a1.073,1.073,0,0,1,1.531.018L13.611,45.9V33.071A1.069,1.069,0,0,1,14.682,32h1.428a1.069,1.069,0,0,1,1.071,1.071V45.9l5.124-5.379a1.065,1.065,0,0,1,1.531-.018Z" transform="translate(784.85 4345)" fill="#0f2771"/>
+    <path id="arrow-down-solid-2" data-name="arrow-down-solid" d="M23.838,40.5l.991.991a1.067,1.067,0,0,1,0,1.513l-8.673,8.678a1.067,1.067,0,0,1-1.513,0L5.965,43.008a1.067,1.067,0,0,1,0-1.513l.991-.991a1.073,1.073,0,0,1,1.531.018L13.611,45.9V33.071A1.069,1.069,0,0,1,14.682,32h1.428a1.069,1.069,0,0,1,1.071,1.071V45.9l5.124-5.379a1.065,1.065,0,0,1,1.531-.018Z" transform="translate(784.85 4494)" fill="#0f2771"/>
+  </g>
+</svg>

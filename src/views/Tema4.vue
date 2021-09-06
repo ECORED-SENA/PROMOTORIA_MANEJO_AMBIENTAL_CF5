@@ -127,9 +127,98 @@
     #t_4_2.titulo-segundo
       h2 4.2. Identificación del impacto ambiental    
     p.mb-5  Para identificar los impactos ambientales es necesario conocer primero los aspectos ambientales dentro de su organización, tanto de las actividades, productos o servicios y cómo estos afectan el medio ambiente. A continuación, se relacionan algunas variables que se deben tener como factor contaminante:
+    //-- linea 1
     .row.mb-5
       .col-lg-4
-        //-- Aqui vienene los cards
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/t4-i2.jpg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Atmósfera
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Factor Contaminante
+              p  • Gases<br> • Lluvia ácida<br> • Aerosoles<br> • Ruido
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Identificación
+              p  • Índice de calidad del aire<br> • Emisiones de CO2
+      .col-lg-4
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/t4-i3.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Ruido
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Factor Contaminante
+              p  • Sonidos indeseables
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Identificación
+              p  • Nivel de presión acústica
+      .col-lg-4
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/t4-i4.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Agua
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Factor Contaminante
+              p  • Contaminantes industriales <br> • Contaminantes orgánicos
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Identificación
+              p  • Índice de calidad de aguas<br>• Ph<br>• Oxígeno disuelto<br>• Coliformes
+    //-- linea 2
+    .row.mb-5
+      .col-lg-4
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/t4-i5.jpg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Capacidad de los suelos
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Factor Contaminante
+              p  • Erosión<br> • Riesgos de inundación<br> • Pérdida de suelos<br> • Cambios topográficos
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Identificación
+              p  • % Cubierta vegetal<br> • % Pedregosidad <br> • Producción agraria
+      .col-lg-4
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/t4-i6.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Paisaje
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Factor Contaminante
+              p  • Variación vegetación <br> • Sequía <br> • Cambio usos del suelo<br> •  Efecto barrera  
+
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Identificación
+              p  • Método de valoración directa subjetiva <br> • Valoración indirecta
+      .col-lg-4
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/t4-i7.jpg", alt="imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Fauna
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Factor Contaminante
+              p  • Contaminantes <br> • Fuego<br> • Pérdida de hábitat
+
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0 Identificación
+              p  • Abundancia de especies <br>• Variedad de especies <br>• Especies protegidas
+
+
 
     p.mb-5  En el impacto ambiental existen una serie de pasos fundamentales para tener en cuenta en el proceso de identificación, como lo son:
     .row.justify-content-center.mb-5
@@ -175,10 +264,8 @@
             p Determine si el tamaño es positivo o negativo.
           .tarjeta.color-acento-contenido.p-3(x="89%" y="28%")
             p Determine cuántas medidas de proyecto influyen en el medio ambiente, en la desagregación positiva y negativa.
-          .tarjeta.color-acento-contenido.p-3(x="89%" y="28%")
-            p Determine cuántas medidas de proyecto influyen en el medio ambiente, en la desagregación positiva y negativa.
           .tarjeta.color-acento-contenido.p-3(x="95%" y="50%")
-            p Determine cuántas medidas de proyecto influyen en el medio ambiente, en la desagregación positiva y negativa.
+            p Añada los resultados para acciones.
           .tarjeta.color-acento-contenido.p-3(x="89%" y="72%")
             p Determine cuántos elementos del medio ambiente se ven afectados por el proyecto que se adoptan en negativos positivos y negativos.
           .tarjeta.color-acento-contenido.p-3(x="74%" y="88%")
