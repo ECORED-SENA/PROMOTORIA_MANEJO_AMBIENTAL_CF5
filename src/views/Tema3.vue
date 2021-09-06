@@ -76,6 +76,22 @@
                 img.nW(src='@/assets/curso/t3-ic7.svg', alt='icono decorativo')    
 
     p.mb-5  A partir de los tipos de aspectos ambientales se desglosa la medición, para este caso, los aspectos es la magnitud, densidad y acercamiento a los límites de referencia. los cuales se describen a continuación:
+      .row
+    .col-auto
+      a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
+        span Abrir modal
+        .indicador--click(v-if="mostrarIndicador")
+    .col
+      p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t 
+        a.lnk(@click="modal1 = true") Abrir modal 
+        |the height of your stature, it’s the heft of your spirit.
+  
+  ModalA(:abrir-modal.sync="modal1")
+    .row.align-items-center
+      .col-md-6.mb-4.mb-md-0
+        h4 Modal 1
+        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+
     //-- line  1
     .row
       .col-lg-4
@@ -86,7 +102,11 @@
           a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
             span Abrir modal
             .indicador--click(v-if="mostrarIndicador")
-
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-6.mb-4.mb-md-0
+          h4 Modal 1
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
       .col-lg-4
         .tarjeta.c2.p-4.text-center
@@ -96,27 +116,41 @@
           a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal2 = true")
             span Abrir modal
             .indicador--click(v-if="mostrarIndicador")
+      ModalA(:abrir-modal.sync="modal2")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Modal 2
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
       .col-lg-4
         .tarjeta.c1.p-4.text-center
           figure
             img.nW.centered.mb-3(src='@/assets/curso/t3-ic10.svg', alt='icono decorativo')    
           .h3 Extensión
-          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal2 = true")
+          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal3 = true")
             span Abrir modal
             .indicador--click(v-if="mostrarIndicador")
+      ModalA(:abrir-modal.sync="modal3")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Modal 1
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
     //-- line  2
-
     .row
       .col-lg-4
         .tarjeta.c2.p-4.text-center
           figure
             img.nW.centered.mb-3(src='@/assets/curso/t3-ic11.svg', alt='icono decorativo')    
           .h3 Peligrosidad
-          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
+          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal4 = true")
             span Abrir modal
-            .indicador--click(v-if="mostrarIndicador")
+          .indicador--click(v-if="mostrarIndicador")
+      ModalA(:abrir-modal.sync="modal4")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Modal 4
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
 
       .col-lg-4
@@ -124,18 +158,28 @@
           figure
             img.nW.centered.mb-3(src='@/assets/curso/t3-ic12.svg', alt='icono decorativo')    
           .h3 Acercamiento a límites de referencia
-          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal2 = true")
+          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal5 = true")
             span Abrir modal
             .indicador--click(v-if="mostrarIndicador")
+      ModalA(:abrir-modal.sync="modal5")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Modal 5
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
       .col-lg-4
         .tarjeta.c2.p-4.text-center
           figure
             img.nW.centered.mb-3(src='@/assets/curso/t3-ic13.svg', alt='icono decorativo')    
           .h3 Sensibilidad del medio
-          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal2 = true")
+          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal6 = true")
             span Abrir modal
             .indicador--click(v-if="mostrarIndicador")
+      ModalA(:abrir-modal.sync="modal6")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Modal 6
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
     //-- line  3
 
@@ -145,9 +189,14 @@
           figure
             img.nW.centered.mb-3(src='@/assets/curso/t3-ic14.svg', alt='icono decorativo')    
           .h3 Estado de regulación
-          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
+          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal7 = true")
             span Abrir modal
             .indicador--click(v-if="mostrarIndicador")
+      ModalA(:abrir-modal.sync="modal7")
+        .row.align-items-center
+          .col-md-6.mb-4.mb-md-0
+            h4 Modal 1
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
 
 
@@ -177,7 +226,14 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
+    modal7: false,
   }),
   mounted() {
     this.$nextTick(() => {
