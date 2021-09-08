@@ -228,7 +228,34 @@
       .col-lg-10
         p.mb-0  Los contaminantes pueden llegar al ecosistema de diferentes formas que tienen efectos negativos en el medio ambiente y la salud de las personas y animales, los cuales se pueden clasificar entre primario y secundarios, pero, además, se identifica según el tipo de fuente, es decir, de manera natural o antropogénica, como se podrá conocer a continuación:
     
-    //-- Aqui vienne los custom cards
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .tarjeta--container.row.mb-5
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .col-md.tarjeta.c1.p-5
+            .row.justify-content-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/t2-ic4.svg', alt='icono decorativo')
+              
+            .h2.text-center Contaminantes primarios
+            p Son aquellos contaminantes que se liberan directamente a la atmósfera, como es el CO, SO2, NOx, este proviene de diversas fuentes, como es el transporte, calderas, industria y procesos productivos. Estos pueden evitarse mediante la implementación de medidas de control.
+
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .col-md.tarjeta.c2.p-5
+            .row.justify-content-center.mb-4
+              .col-6
+                figure
+                  img(src='@/assets/curso/t2-ic5.svg', alt='icono decorativo')
+              
+            .h2.text-center Contaminantes secundarios
+            p Son aquellos contaminantes formados por procesos fisicoquímicos que ocurren en la atmósfera. Las acciones preventivas y correctivas más adecuadas para los contaminantes secundarios consisten en la gestión de los contaminantes primarios en su origen, ya que a menudo están formados por contaminantes primarios.
+
+
 
     p.mb-5  De acuerdo con lo anterior, a continuación, se relacionan los tipos de fuentes:
     
@@ -282,7 +309,8 @@
             .h4 Hongos
             p Son organismos que emiten gases, que pueden ser fatales para los humanos. En el ambiente natural, las concentraciones de estos gases son inofensivas, pero pueden ocurrir en ambientes pequeños y húmedos como los sótanos.
 
-    //-- Aqui vienen los otros
+    br
+    br
 
 
     .row.mb-5.justify-content-center
