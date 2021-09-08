@@ -18,7 +18,7 @@
           img.r10(src='@/assets/curso/t4-i1.jpg', alt='imagen decorativa')
 
     .tarjeta--container.row.mb-5
-      .col-md.c2.p-5
+      .col-md.c2.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -26,7 +26,7 @@
           
         h3.text-center El aprovechamiento de recursos naturales ya sean renovables
         p Tales como el aprovechamiento forestal o la pesca; o no renovables, tales como la extracción del petróleo o del carbón.
-      .col-md.c1.p-5
+      .col-md.c1.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -34,7 +34,7 @@
           
         h3.text-center Contaminación
         p Todos los proyectos que producen algún residuo emiten gases a la atmósfera o vierten líquidos al ambiente.
-      .col-md.c2.p-5
+      .col-md.c2.p-5.text-center
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -137,11 +137,11 @@
               p.h3 Atmósfera
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Factor Contaminante
+              p.text-center.mb-0.text-bold Factor Contaminante
               p  • Gases<br> • Lluvia ácida<br> • Aerosoles<br> • Ruido
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Identificación
+              p.text-center.mb-0.text-bold Identificación
               p  • Índice de calidad del aire<br> • Emisiones de CO2
       .col-lg-4
         .nav-holder.align-items-center
@@ -151,11 +151,11 @@
               p.h3 Ruido
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Factor Contaminante
+              p.text-center.mb-0.text-bold Factor Contaminante
               p  • Sonidos indeseables
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Identificación
+              p.text-center.mb-0.text-bold Identificación
               p  • Nivel de presión acústica
       .col-lg-4
         .nav-holder.align-items-center
@@ -165,11 +165,11 @@
               p.h3 Agua
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Factor Contaminante
+              p.text-center.mb-0.text-bold Factor Contaminante
               p  • Contaminantes industriales <br> • Contaminantes orgánicos
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Identificación
+              p.text-center.mb-0.text-bold Identificación
               p  • Índice de calidad de aguas<br>• Ph<br>• Oxígeno disuelto<br>• Coliformes
     //-- linea 2
     .row.mb-5
@@ -181,11 +181,11 @@
               p.h3 Capacidad de los suelos
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Factor Contaminante
+              p.text-center.mb-0.text-bold Factor Contaminante
               p  • Erosión<br> • Riesgos de inundación<br> • Pérdida de suelos<br> • Cambios topográficos
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Identificación
+              p.text-center.mb-0.text-bold Identificación
               p  • % Cubierta vegetal<br> • % Pedregosidad <br> • Producción agraria
       .col-lg-4
         .nav-holder.align-items-center
@@ -195,12 +195,12 @@
               p.h3 Paisaje
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Factor Contaminante
+              p.text-center.mb-0.text-bold Factor Contaminante
               p  • Variación vegetación <br> • Sequía <br> • Cambio usos del suelo<br> •  Efecto barrera  
 
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Identificación
+              p.text-center.mb-0.text-bold Identificación
               p  • Método de valoración directa subjetiva <br> • Valoración indirecta
       .col-lg-4
         .nav-holder.align-items-center
@@ -210,15 +210,30 @@
               p.h3 Fauna
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Factor Contaminante
+              p.text-center.mb-0.text-bold Factor Contaminante
               p  • Contaminantes <br> • Fuego<br> • Pérdida de hábitat
 
               p
                 i.fas.fa-arrow-down
-              p.text-center.mb-0 Identificación
+              p.text-center.mb-0.text-bold Identificación
               p  • Abundancia de especies <br>• Variedad de especies <br>• Especies protegidas
 
-
+    //-- linea 3
+    .row.mb-5.justify-content-center
+      .col-lg-4
+        .nav-holder.align-items-center
+          img(src="@/assets/curso/t4-icard8.jpg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Vegetación
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0.text-bold Factor Contaminante
+              p  • Fuego<br> • Contaminación de aguas / suelos<br> • Destrucción de cubierta vegetal
+              p
+                i.fas.fa-arrow-down
+              p.text-center.mb-0.text-bold Identificación
+              p  • Diversidad de especies<br> • Presencia de autóctonas <br> • Endemismos
 
     p.mb-5  En el impacto ambiental existen una serie de pasos fundamentales para tener en cuenta en el proceso de identificación, como lo son:
     .row.justify-content-center.mb-5

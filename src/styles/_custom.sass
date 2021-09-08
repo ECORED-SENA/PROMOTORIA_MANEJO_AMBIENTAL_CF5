@@ -120,6 +120,8 @@ figcaption
   background-color: #E1D9FB
 .tarjeta.color-acento-botones *
   color: #12263F!important
+.slyder-a__bullets
+  bottom: 0px
 .nav-holder
   display: inline-block;
   margin: 10px 5px;
@@ -141,7 +143,12 @@ figcaption
   color: #fff
 .soft-gray
   background-color: #F6F6F6
-
+.slyder-a__bullets
+  bottom: -50px
+.slyder-a__bullets__item
+  background-color: #8AD24A
+.slyder-a__bullets__item--active
+  background-color: #0F2771
 .nav-holder:before
   position: absolute
   top: 0
@@ -186,12 +193,10 @@ figcaption
   p, i
     opacity: 0
     text-align: center
-    font-weight: 700
 
-.nav-holder h3
+.nav-holder .h3
     margin: 0
-    opacity: 1
-    margin-top: 25%
+    color: #0F2771
 
 .nav-holder:hover
   p, i
@@ -199,6 +204,8 @@ figcaption
     -webkit-transition-delay: 0.2s
     -moz-transition-delay: 0.2s
     transition-delay: 0.2s
+.nav-holder i
+  color: #0F2771   
 .nav-holder *
   color: #000
 

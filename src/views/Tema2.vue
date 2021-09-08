@@ -21,7 +21,7 @@
     #t_2_1.titulo-segundo
       h2 2.1. Tipos de contaminantes
     p.mb-5  Teniendo en cuenta las fuentes de contaminación, es importante, además, determinar los tipos de contaminantes que afectan el ambiente, como se relacionan a continuación:
-    .tarjeta.bg-soft-green.neg-margin-x.r-0
+    .tarjeta.bg-soft-green.neg-margin-x.r-0.mb-5.py-5
       .p-5
         SlyderA
           .row.justify-content-center
@@ -127,7 +127,7 @@
           
             .col-md-5
               figure
-                img.r10(src='@/assets/curso/t2-sl0.jpg', alt='imagen decorativa') 
+                img.r10(src='@/assets/curso/t2-sl10.jpg', alt='imagen decorativa') 
 
           .row.justify-content-center
             .col-md-6.mb-4.mb-md-0
