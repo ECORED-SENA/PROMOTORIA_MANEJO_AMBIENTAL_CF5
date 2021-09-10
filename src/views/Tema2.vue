@@ -11,9 +11,10 @@
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h2.mb-0(data-aos="fade-left") Las técnicas de documentación consisten en la identificación, recogida y análisis de documentos relacionados con el hecho o contexto estudiado.
-            .col-lg-8
+            .col-lg-3.mb-4.mb-lg-0
+              figure
+                img.nW(src='@/assets/curso/t2-ic1.svg', alt='imagen decorativa')
+            .col-lg-9
               .bloque-texto-a__texto.p-4(data-aos="flip-down")
                 p La contaminación ambiental está arrasando de manera desmesurada con el medio ambiente y esto va en aumento junto con el desarrollo social. Los cambios físicos, químicos o biológicos que puedan afectar la salud, el bienestar o la supervivencia de la biodiversidad están directamente relacionados con las fuentes de contaminación. Es por esto por lo que se determinan los siguientes tipos de contaminantes: 
 
@@ -357,7 +358,7 @@
         .row
           .col-lg-4
             figure
-              img.nW.r10(src="@/assets/curso/t2-i5.jpg")
+              img.nW.r10(src="@/assets/curso/t2-i9.jpg")
           .col-lg-8
             .h4 Transporte
             p Los combustibles fósiles permiten que se movilicen los diferentes vehículos, además para la construcción de vías, se deben destruir extensiones de bosques, así como la reconducción de los cuerpos de agua para la construcción de estas.

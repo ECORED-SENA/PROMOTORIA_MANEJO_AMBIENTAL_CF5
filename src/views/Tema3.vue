@@ -75,7 +75,7 @@
               figure
                 img.nW(src='@/assets/curso/t3-ic7.svg', alt='icono decorativo')    
 
-    p.mb-5  A partir de los tipos de aspectos ambientales se desglosa la medición, para este caso, los aspectos es la magnitud, densidad y acercamiento a los límites de referencia. los cuales se describen a continuación:
+    p.mb-5  A partir de los tipos de aspectos ambientales se desglosa la medición, para este caso, los aspectos es la magnitud, densidad y acercamiento a los límites de referencia. Los cuales se describen a continuación:
 
     //-- line  1
     .row.mb-4

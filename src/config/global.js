@@ -69,7 +69,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Clasificación de los ambientes',
+            titulo: 'Clasificación de los aspectos ambientales',
             hash: 't_3_2',
           },
           {
@@ -112,7 +112,7 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Análisis de ciclo de vida',
+        titulo: 'Documentación para implementar los impactos ambientales',
         desarrolloContenidos: true,
       },
     ],
