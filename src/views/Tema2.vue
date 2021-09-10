@@ -212,7 +212,7 @@
                   h3.mb-1 Medición de los diferentes tipos de contaminantes
                   p.text-small A continuación, se ha diseñado una guía sobre los diferentes tipos de contaminantes. Descarga la siguiente infografía.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/infografia_medicion_tipos_contaminantes.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
