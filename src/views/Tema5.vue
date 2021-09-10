@@ -58,7 +58,10 @@
             .lista-ol--cuadro__vineta.text-center
               i.fas.fa-check
             | Fabricación, procesado y formulación de productos.
-
+          li
+            .lista-ol--cuadro__vineta.text-center
+              i.fas.fa-check
+            | Distribución y transporte.
           li
             .lista-ol--cuadro__vineta.text-center
               i.fas.fa-check

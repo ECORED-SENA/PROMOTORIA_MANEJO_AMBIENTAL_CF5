@@ -210,7 +210,7 @@
     br
     br
     #t_3_2.titulo-segundo
-      h2 3.2. Clasificación de los ambientes    
+      h2 3.2. Clasificación de los aspectos ambientales   
     .row
       .col-lg-7
         p.mb-3.text-bold  Los aspectos ambientales se clasifican como significativos y no significativos. 

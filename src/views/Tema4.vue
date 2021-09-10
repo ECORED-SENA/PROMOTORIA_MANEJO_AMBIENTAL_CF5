@@ -12,7 +12,7 @@
       .col-lg-7
         p.mb-3.text-bold  Por medio de la identificación de impactos ambientales se busca hacer una evaluación y valoración de los efectos presente como resultado de las actividades, productos o servicios en una organización, así como, se pretende mediante la evaluación, poder hallar soluciones para prevenir, mitigar o controlar dichos impactos.
         p.mb-3  Los impactos ambientales son todas aquellas alteraciones que son generadas por el ser humano al medio ambiente ya sea de manera directa o indirecta al medio ambiente por un proyecto, acción, obra o labor en un área determinada. Toda actividad que pueda causar un impacto ambiental en alguna de sus fases estará obligada a someterse al sistema de evaluación de impacto ambiental para determinar con claridad la magnitud de estos impactos. 
-        p.mb-3  En este sentido, los aspectos ambientales son todas las acciones, productos o servicios, que interactúan con el medio ambiente dentro de una organización.
+        p.mb-3  Los impactos ambientales se pueden establecer de acuerdo con los siguientes tipos:
       .col-lg-5
         figure(data-aos="flip-left")
           img.r10(src='@/assets/curso/t4-i1.jpg', alt='imagen decorativa')
@@ -41,7 +41,7 @@
               img(src='@/assets/curso/t4-ic3.svg', alt='icono decorativo')
           
         h3.text-center Ocupación del territorio
-        p Los proyectos que al ocupar un territorio modifican las condiciones naturales por acciones tales como desmonte, compactación del suelo y otras
+        p Los proyectos que al ocupar un territorio modifican las condiciones naturales por acciones tales como desmonte, compactación del suelo y otras.
 
 
 
@@ -238,7 +238,7 @@
     p.mb-5  En el impacto ambiental existen una serie de pasos fundamentales para tener en cuenta en el proceso de identificación, como lo son:
     .row.justify-content-center.mb-5
       .col-lg-8
-        PasosA.color-acento-contenido.mb-5(tipo="l")
+        PasosA.color-acento-contenido.mb-5.customSteps(tipo="l")
           div
             .h4 Declaración de los objetivos del proyecto.
           div
