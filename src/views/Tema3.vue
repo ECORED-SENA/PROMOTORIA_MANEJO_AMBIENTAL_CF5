@@ -157,7 +157,7 @@
           .h3 Acercamiento a límites de referencia
           a.boton.color-acento-botones.mb-5.indicador__container(@click="modal5 = true")
             span Abrir modal
-            .indicador--click(v-if="mostrarIndicador")
+            
         ModalA(:abrir-modal.sync="modal5")
           .row.align-items-center
             .col-lg-2
