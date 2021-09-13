@@ -201,7 +201,7 @@
     
     .row.mb-5.justify-content-center
       .col-lg-10
-        .tarjeta.color-primario.p-4.mb-5
+        .tarjeta.color-soft-green.p-4.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               figure
@@ -212,7 +212,7 @@
                   h3.mb-1 Medición de los diferentes tipos de contaminantes
                   p.text-small A continuación, se ha diseñado una guía sobre los diferentes tipos de contaminantes. Descarga la siguiente infografía.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/infografia_medicion_tipos_contaminantes.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/infografia_medicion_tipos_contaminantes.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -272,7 +272,7 @@
                 .h4 Contaminación natural
                 p.mb-3 La contaminación natural es la que se produce por procesos propios de la naturaleza y puede llegar a afectar el aire, suelo, agua. Esta se puede identificar por medio de las lluvias que se introducen en la tierra, también por medio de la erupción de un volcán o cuando la materia orgánica se descompone y emite ciertas partículas que pueden afectar el estado natural de la tierra. 
                 p.mb-3  Algunos de estos contaminantes se relacionan a continuación: 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-secundario.mb-5
       .tarjeta.bg-soft-green.p-4(titulo="Erupciones volcánicas")
         .row
           .col-lg-4
@@ -325,7 +325,7 @@
               .bloque-texto-a__texto.p-4(data-aos="flip-down")
                 .h4 Contaminación antropogénica
                 p.mb-3 Son todas las actividades humanas que tienen cierto grado de afectación sobre el medio ambiente. La principal causa de la contaminación por el hombre es el consumo excesivo y el estilo de vida urbano. 
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-secundario.mb-5
       .tarjeta.bg-soft-green.p-4(titulo="Actividad industrial")
         .row
           .col-lg-4
@@ -365,7 +365,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        .cajon.color-acento-contenido.p-4(data-aos="flip-down")
+        .cajon.color-acento-botones.p-4(data-aos="flip-down")
           .row.align-items-center
             .col-lg-2
               figure

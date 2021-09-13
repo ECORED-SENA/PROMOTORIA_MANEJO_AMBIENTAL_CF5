@@ -19,7 +19,7 @@
     
     .row.mb-4.justify-content-center
       .col-lg-10
-        PasosA.color-acento-contenido.mb-5(tipo="n")
+        PasosA.color-acento-botones.mb-5(tipo="n")
           .row
             .col-md-2
               figure

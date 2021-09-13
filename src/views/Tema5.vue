@@ -77,7 +77,7 @@
         figure(data-aos="flip-left")
           img.nW(src='@/assets/curso/t5-i2.jpg', alt='icono decorativo')
       .col-lg-8
-        TabsC.color-primario.mb-5(data-aos="fade-up")
+        TabsC.color-acento-contenido.mb-5(data-aos="fade-up")
           .py-4.py-md-4(titulo="Tipos de análisis del ciclo de vida")
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-0

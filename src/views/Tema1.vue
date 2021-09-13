@@ -16,7 +16,7 @@
           img(src="@/assets/curso/t1-i1.jpg", alt="mujer con tablet PC en la mano supervisando un cultivo")
 
 
-    TabsC.color-primario.mb-5(data-aos="fade-up")
+    TabsC.color-acento-contenido.mb-5(data-aos="fade-up")
       .py-4.py-md-4(titulo="Matrices")
         .row.justify-content-center
           .col-md-5.mb-4.mb-md-0
@@ -53,7 +53,7 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        .cajon.color-acento-contenido.p-4(data-aos="flip-down")
+        .cajon.color-acento-botones.p-4(data-aos="flip-down")
           .row
             .col-lg-1
               figure
