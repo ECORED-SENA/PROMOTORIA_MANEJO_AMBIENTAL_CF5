@@ -7,6 +7,9 @@
       .titulo-principal__numero
         span 5
       h1 Análisis de ciclo de vida
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/zCHjI34V9FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
       .col-lg-7
