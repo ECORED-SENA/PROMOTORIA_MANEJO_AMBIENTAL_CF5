@@ -171,7 +171,7 @@ export default {
     },
     {
       referencia:
-        'Instituto Colombiano de normas técnicas y certificación (ICONTEC). (2007).  Norma técnica colombiana ISO 1040. Gestión ambiental. Análisis del ciclo de vida. Principios y marcos de referencia.',
+        'Instituto Colombiano de normas técnicas y certificación (ICONTEC). (2007).  Norma técnica colombiana ISO 14040. Gestión ambiental. Análisis del ciclo de vida. Principios y marcos de referencia.',
       link:
         'http://files.control-ambiental5.webnode.com.co/200000127-a0991a28c5/NTC-ISO14040-2007%20Analisis_CicloVida.pdf',
     },
@@ -221,7 +221,7 @@ export default {
     },
     {
       texto:
-        'Análisis del ciclo de vida: Instituto Colombiano de normas técnicas y certificación (ICONTEC). (2007).  <i>Norma técnica colombiana ISO 1040. Gestión ambiental. Análisis del ciclo de vida. Principios y marcos de referencia.</i>',
+        'Análisis del ciclo de vida: Instituto Colombiano de normas técnicas y certificación (ICONTEC). (2007).  <i>Norma técnica colombiana ISO 14040. Gestión ambiental. Análisis del ciclo de vida. Principios y marcos de referencia.</i>',
       tipo: 'Normatividad',
       link:
         'http://files.control-ambiental5.webnode.com.co/200000127-a0991a28c5/NTC-ISO14040-2007%20Analisis_CicloVida.pdf  ',
